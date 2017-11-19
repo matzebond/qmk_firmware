@@ -254,14 +254,14 @@ void matrix_scan_user(void) {
 
     uint8_t emulate_neo = layer_state & (1L << NEO_L1);
 
-    ergodox_board_led_off();
-    ergodox_right_led_1_off();
-    ergodox_right_led_2_off();
-    ergodox_right_led_3_off();
-    ergodox_board_led_off();
+    ergodox_led_all_off();
 
     if (host_keyboard_leds() & (1<<USB_LED_CAPS_LOCK)) {
         ergodox_right_led_3_on();
+    }
+
+    if (host_keyboard_leds() & (1<<USB_LED_NUM_LOCK)) {
+      ergodox_right_led_3_on();
     }
 
     if (emulate_neo) {
