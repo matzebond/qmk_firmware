@@ -19,34 +19,34 @@
 #include "keymap.h"
 #include "keymap_german.h"
 
-#define NEO_A KC_D
-#define NEO_B KC_N
-#define NEO_C KC_R
+#define NEO_A DE_D
+#define NEO_B DE_N
+#define NEO_C DE_R
 #define NEO_D DE_OE
-#define NEO_E KC_F
-#define NEO_F KC_O
-#define NEO_G KC_I
-#define NEO_H KC_U
-#define NEO_I KC_S
+#define NEO_E DE_F
+#define NEO_F DE_O
+#define NEO_G DE_I
+#define NEO_H DE_U
+#define NEO_I DE_S
 #define NEO_J DE_MINS
 #define NEO_K DE_Z
-#define NEO_L KC_E
-#define NEO_M KC_M
-#define NEO_N KC_J
-#define NEO_O KC_G
-#define NEO_P KC_V
-#define NEO_Q KC_P
-#define NEO_R KC_K
-#define NEO_S KC_H
-#define NEO_T KC_L
-#define NEO_U KC_A
-#define NEO_V KC_W
-#define NEO_W KC_T
-#define NEO_X KC_Q
+#define NEO_L DE_E
+#define NEO_M DE_M
+#define NEO_N DE_J
+#define NEO_O DE_G
+#define NEO_P DE_V
+#define NEO_Q DE_P
+#define NEO_R DE_K
+#define NEO_S DE_H
+#define NEO_T DE_L
+#define NEO_U DE_A
+#define NEO_V DE_W
+#define NEO_W DE_T
+#define NEO_X DE_Q
 #define NEO_Y DE_AE
-#define NEO_Z KC_B
-#define NEO_AE KC_C
-#define NEO_OE KC_X
+#define NEO_Z DE_B
+#define NEO_AE DE_C
+#define NEO_OE DE_X
 #define NEO_UE DE_Y
 #define NEO_SS DE_UE
 
@@ -65,14 +65,14 @@
 #define NEO_0 DE_0
 #define NEO_MINS DE_SS
 
-#define NEO_ACUT DE_PLUS
-#define NEO_GRV DE_ACUT
-#define NEO_CIRC DE_CIRC
+#define NEO_ACUT DE_PLUS // ´
+#define NEO_GRV DE_ACUT // `
+#define NEO_CIRC DE_CIRC // °
 
-#define NEO_L1_L KC_CAPS
-#define NEO_L1_R DE_HASH
+#define NEO_MOD3_L KC_CAPS
+#define NEO_MOD3_R DE_HASH
 
-#define NEO_L2_L DE_LESS
-#define NEO_L2_R DE_ALGR
+#define NEO_MOD4_L DE_LABK
+#define NEO_MOD4_R DE_ALGR
 
 #endif

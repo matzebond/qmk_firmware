@@ -75,13 +75,13 @@
 #define DE_ACUT KC_EQL // accent acute ´ and grave `
 #define DE_PLUS KC_RBRC // + and * and ~
 #define DE_HASH KC_BSLS // # and '
-#define DE_LESS KC_NUBS // < and > and |
+#define DE_LABK KC_NUBS // < and > and |
 #define DE_MINS KC_SLSH // - and _
 
 // shifted characters
 #define DE_RING LSFT(DE_CIRC) // °
 #define DE_EXLM LSFT(KC_1) // !
-#define DE_DQOT LSFT(KC_2) // "
+#define DE_DQUO LSFT(KC_2) // "
 #define DE_PARA LSFT(KC_3) // §
 #define DE_DLR  LSFT(KC_4) // $
 #define DE_PERC LSFT(KC_5) // %
@@ -90,11 +90,11 @@
 #define DE_LPRN LSFT(KC_8) // (
 #define DE_RPRN LSFT(KC_9) // )
 #define DE_EQL  LSFT(KC_0) // =
-#define DE_QST  LSFT(DE_SS) // ?
+#define DE_QUES LSFT(DE_SS) // ?
 #define DE_GRV  LSFT(DE_ACUT) // `
 #define DE_ASTR LSFT(DE_PLUS) // *
 #define DE_QUOT LSFT(DE_HASH) // '
-#define DE_MORE LSFT(DE_LESS) // >
+#define DE_RABK LSFT(DE_LESS) // >
 #define DE_COLN LSFT(KC_DOT) // :
 #define DE_SCLN LSFT(KC_COMM) // ;
 #define DE_UNDS LSFT(DE_MINS) // _
